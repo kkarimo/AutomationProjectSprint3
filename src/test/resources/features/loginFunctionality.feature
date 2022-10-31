@@ -2,7 +2,7 @@
 Feature: Login Functionality
   Agile story: As a user, I should be able to login
 
-  @smoke
+  @AGLP-1521
   Scenario Outline: User logins as HR user with Valid Credentials
     When user navigates to login page
     When user enters username "<username>"
